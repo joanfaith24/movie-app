@@ -1,16 +1,38 @@
-# React + Vite
+# 🎬 Movie and Anime Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie and anime search app built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔍 Search for movies and anime
+- 🎥 Browse popular movies
+- 📺 Discover anime titles
+- ⚡ Fast and responsive UI
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- Tailwind CSS
+- TMDB API
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Click here to view the app](https://lambent-marzipan-1c848d.netlify.app/)
+
+## ⚙️ Getting Started
+
+1. Clone the repository
+2. Install dependencies
+```bash
+   npm install
+```
+3. Add your TMDB API key in `.env`
+VITE_TMDB_API_KEY=your_api_key_here
+4. Run the app
+```bash
+   npm run dev
+```
+
+## 👩‍💻 Author
+
+Joan Faith
